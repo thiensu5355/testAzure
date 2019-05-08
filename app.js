@@ -21,8 +21,8 @@ var ServerExpress = /** @class */ (function () {
             mongoose_1.set('useCreateIndex', true);
         };
         this.routes = function () {
-            _this.app.use(api_router_1.ApiRoutes.path, api_router_1.ApiRoutes.router);
-            _this.app.use(user_router_1.UserRoutes.path, user_router_1.UserRoutes.router);
+            _this.app.use('/', api_router_1.ApiRoutes.router);
+            _this.app.use('/user', user_router_1.UserRoutes.router);
         };
         this.mongoSetup();
         this.app = express();

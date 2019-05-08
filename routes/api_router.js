@@ -56,7 +56,6 @@ var ApiRoutes = /** @class */ (function (_super) {
             });
         });
     };
-    ApiRoutes.path = '/api';
     return ApiRoutes;
 }(base_router_1.default));
 exports.ApiRoutes = ApiRoutes;

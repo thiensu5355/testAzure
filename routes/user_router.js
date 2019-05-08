@@ -114,7 +114,6 @@ var UserRoutes = /** @class */ (function (_super) {
             });
         });
     };
-    UserRoutes.path = '/api/user';
     return UserRoutes;
 }(base_router_1.default));
 exports.UserRoutes = UserRoutes;
